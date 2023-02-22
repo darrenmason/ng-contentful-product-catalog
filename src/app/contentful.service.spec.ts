@@ -5,8 +5,13 @@ import { ContentfulService } from './contentful.service';
 describe('ContentfulService', () => {
   let service: ContentfulService;
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({});
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      providers: [
+        ContentfulService
+      ]
+    })
+    .compileComponents();
     service = TestBed.inject(ContentfulService);
   });
 

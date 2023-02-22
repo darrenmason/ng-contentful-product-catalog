@@ -1,4 +1,9 @@
-# NgContentfulProductCatalog
+# fcb-demo
+This example contains an ng app with example contentful integration, material layout and a test case. Further additions can be made upon request.
+
+<br />
+
+## NgContentfulProductCatalog
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
 

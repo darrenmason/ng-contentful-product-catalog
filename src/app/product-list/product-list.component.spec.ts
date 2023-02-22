@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { ContentfulService } from '../contentful.service';
+import { MatCardModule } from '@angular/material/card';
 import { ProductListComponent } from './product-list.component';
 
 describe('ProductListComponent', () => {
@@ -8,7 +9,13 @@ describe('ProductListComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ProductListComponent ]
+      declarations: [ ProductListComponent ],
+      imports: [
+        MatCardModule
+      ],
+      providers: [
+        ContentfulService
+      ]
     })
     .compileComponents();
 
