@@ -1,10 +1,13 @@
-
-
-
 <mat-card>
   <mat-card-content>
     <ul class="u-listReset">
       <li *ngFor="let product of products">{{ product.fields.productName }}</li>
     </ul>
+  </mat-card-content>
+</mat-card>
+
+<mat-card>
+  <mat-card-content>
+    <app-bar></app-bar>
   </mat-card-content>
 </mat-card>

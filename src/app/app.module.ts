@@ -13,6 +13,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { BarComponent } from './bar/bar.component';
 
 // define the available routes
 const routes: Routes = [
@@ -21,7 +22,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [AppComponent, ProductListComponent, NavComponent],
+  declarations: [AppComponent, ProductListComponent, NavComponent, BarComponent],
   imports: [
     BrowserModule,
     RouterModule.forRoot(routes),
