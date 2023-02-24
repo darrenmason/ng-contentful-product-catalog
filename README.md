@@ -1,5 +1,5 @@
 # fcb-demo
-This example contains an ng app with example contentful integration, material layout and a test case. Further additions can be made upon request.
+This example contains an ng app with example Contentful integration, material layout and simple test cases. Added SVG chart example.  Added Graphql example with Apollo. Further additions can be made upon request.
 
 <br />
 
